@@ -261,7 +261,7 @@ export default function MenuPage() {
           className="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden"
         >
           <Image
-            src="/images/menu-hero.jpg"
+            src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1920&h=1080&fit=crop"
             alt="Elegant table setting"
             fill
             className="object-cover"

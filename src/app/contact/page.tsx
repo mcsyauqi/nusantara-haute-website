@@ -37,7 +37,7 @@ export default function ContactPage() {
           className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden"
         >
           <Image
-            src="/images/contact-hero.jpg"
+            src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=1920&h=1080&fit=crop"
             alt="Restaurant entrance"
             fill
             className="object-cover"

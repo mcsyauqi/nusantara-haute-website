@@ -16,7 +16,7 @@ const venues = [
       "An intimate private dining room wrapped in rich Indonesian textiles and curated artifacts. Perfect for executive dinners and milestone celebrations.",
     features: ["Full privacy", "Custom menus", "Dedicated butler", "A/V capabilities"],
     minSpend: "IDR 25,000,000",
-    image: "/images/spice-room-events.jpg",
+    image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&h=600&fit=crop",
   },
   {
     name: "The Garden Terrace",
@@ -25,7 +25,7 @@ const venues = [
       "Our outdoor sanctuary with tropical landscaping and retractable roof. Ideal for cocktail receptions and al fresco celebrations.",
     features: ["Open-air dining", "Flexible layout", "Live entertainment", "Custom lighting"],
     minSpend: "IDR 50,000,000",
-    image: "/images/garden-events.jpg",
+    image: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=800&h=600&fit=crop",
   },
   {
     name: "Full Restaurant Buyout",
@@ -34,7 +34,7 @@ const venues = [
       "Exclusive access to the entire Nusantara Haute experience. Transform our space for your most prestigious occasions.",
     features: ["Complete exclusivity", "Bespoke experience", "All spaces included", "Full team dedicated"],
     minSpend: "IDR 150,000,000",
-    image: "/images/buyout-events.jpg",
+    image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop",
   },
 ];
 
@@ -92,7 +92,7 @@ export default function PrivateEventsPage() {
           className="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden"
         >
           <Image
-            src="/images/events-hero.jpg"
+            src="https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?w=1920&h=1080&fit=crop"
             alt="Private dining event"
             fill
             className="object-cover"

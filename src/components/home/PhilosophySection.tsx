@@ -4,6 +4,12 @@ import { useRef } from "react";
 import Image from "next/image";
 import { motion, useScroll, useTransform, useInView } from "framer-motion";
 
+const images = {
+  main: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&h=1000&fit=crop",
+  spices: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=400&h=400&fit=crop",
+  chefSmall: "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=128&h=128&fit=crop",
+};
+
 export default function PhilosophySection() {
   const sectionRef = useRef<HTMLDivElement>(null);
   const imageRef = useRef<HTMLDivElement>(null);
@@ -99,7 +105,7 @@ export default function PhilosophySection() {
             >
               <div className="w-16 h-16 rounded-full overflow-hidden border border-gold-accent/30">
                 <Image
-                  src="/images/chef-portrait-small.jpg"
+                  src={images.chefSmall}
                   alt="Chef Arya Wijaya"
                   width={64}
                   height={64}
@@ -145,7 +151,7 @@ export default function PhilosophySection() {
             >
               {/* Main Image */}
               <Image
-                src="/images/philosophy-dish.jpg"
+                src={images.main}
                 alt="Artfully plated Indonesian dish"
                 fill
                 className="object-cover"
@@ -172,7 +178,7 @@ export default function PhilosophySection() {
             >
               <div className="relative w-full h-full">
                 <Image
-                  src="/images/spices.jpg"
+                  src={images.spices}
                   alt="Indonesian spices"
                   fill
                   className="object-cover"

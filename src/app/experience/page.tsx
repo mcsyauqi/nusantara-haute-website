@@ -20,7 +20,7 @@ const experiences = [
       "Live kitchen view",
       "Acoustic design for conversation",
     ],
-    image: "/images/main-dining.jpg",
+    image: "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&h=600&fit=crop",
   },
   {
     title: "Chef's Table",
@@ -33,7 +33,7 @@ const experiences = [
       "Behind-the-scenes experience",
       "Priority reservations",
     ],
-    image: "/images/chefs-table-detail.jpg",
+    image: "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?w=800&h=600&fit=crop",
   },
   {
     title: "The Spice Room",
@@ -46,7 +46,7 @@ const experiences = [
       "Dedicated service team",
       "Audio-visual capabilities",
     ],
-    image: "/images/spice-room.jpg",
+    image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&h=600&fit=crop",
   },
   {
     title: "The Garden Terrace",
@@ -59,7 +59,7 @@ const experiences = [
       "Weather protection",
       "Flexible layout",
     ],
-    image: "/images/garden-terrace.jpg",
+    image: "https://images.unsplash.com/photo-1578474846511-04ba529f0b88?w=800&h=600&fit=crop",
   },
 ];
 
@@ -95,7 +95,7 @@ export default function ExperiencePage() {
         >
           <motion.div style={{ y: heroY }} className="absolute inset-0">
             <Image
-              src="/images/experience-hero.jpg"
+              src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1920&h=1080&fit=crop"
               alt="Nusantara Haute dining experience"
               fill
               className="object-cover"

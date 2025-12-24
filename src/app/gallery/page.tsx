@@ -11,22 +11,22 @@ import { X, ChevronLeft, ChevronRight } from "lucide-react";
 const categories = ["All", "Dishes", "Interior", "Chef", "Events"];
 
 const galleryImages = [
-  { src: "/images/gallery/dish-1.jpg", category: "Dishes", alt: "Rendang Wagyu presentation" },
-  { src: "/images/gallery/interior-1.jpg", category: "Interior", alt: "Main dining room" },
-  { src: "/images/gallery/chef-1.jpg", category: "Chef", alt: "Chef Arya plating" },
-  { src: "/images/gallery/dish-2.jpg", category: "Dishes", alt: "Sate Lilit Bali" },
-  { src: "/images/gallery/events-1.jpg", category: "Events", alt: "Private dinner setup" },
-  { src: "/images/gallery/interior-2.jpg", category: "Interior", alt: "Bar area" },
-  { src: "/images/gallery/dish-3.jpg", category: "Dishes", alt: "Dessert plating" },
-  { src: "/images/gallery/chef-2.jpg", category: "Chef", alt: "Kitchen team at work" },
-  { src: "/images/gallery/dish-4.jpg", category: "Dishes", alt: "Seafood course" },
-  { src: "/images/gallery/interior-3.jpg", category: "Interior", alt: "Chef's table" },
-  { src: "/images/gallery/events-2.jpg", category: "Events", alt: "Garden terrace event" },
-  { src: "/images/gallery/dish-5.jpg", category: "Dishes", alt: "Amuse-bouche selection" },
-  { src: "/images/gallery/chef-3.jpg", category: "Chef", alt: "Ingredient preparation" },
-  { src: "/images/gallery/dish-6.jpg", category: "Dishes", alt: "Signature appetizer" },
-  { src: "/images/gallery/interior-4.jpg", category: "Interior", alt: "Wine cellar" },
-  { src: "/images/gallery/dish-7.jpg", category: "Dishes", alt: "Klepon dessert" },
+  { src: "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&h=600&fit=crop", category: "Dishes", alt: "Rendang Wagyu presentation" },
+  { src: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=600&fit=crop", category: "Interior", alt: "Main dining room" },
+  { src: "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=600&h=600&fit=crop", category: "Chef", alt: "Chef Arya plating" },
+  { src: "https://images.unsplash.com/photo-1529563021893-cc83c992d75d?w=600&h=600&fit=crop", category: "Dishes", alt: "Sate Lilit Bali" },
+  { src: "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?w=600&h=600&fit=crop", category: "Events", alt: "Private dinner setup" },
+  { src: "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=600&h=600&fit=crop", category: "Interior", alt: "Bar area" },
+  { src: "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&h=600&fit=crop", category: "Dishes", alt: "Dessert plating" },
+  { src: "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=600&h=600&fit=crop", category: "Chef", alt: "Kitchen team at work" },
+  { src: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&h=600&fit=crop", category: "Dishes", alt: "Seafood course" },
+  { src: "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?w=600&h=600&fit=crop", category: "Interior", alt: "Chef's table" },
+  { src: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=600&h=600&fit=crop", category: "Events", alt: "Garden terrace event" },
+  { src: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=600&h=600&fit=crop", category: "Dishes", alt: "Amuse-bouche selection" },
+  { src: "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?w=600&h=600&fit=crop", category: "Chef", alt: "Ingredient preparation" },
+  { src: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=600&fit=crop", category: "Dishes", alt: "Signature appetizer" },
+  { src: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=600&h=600&fit=crop", category: "Interior", alt: "Wine cellar" },
+  { src: "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&h=600&fit=crop", category: "Dishes", alt: "Klepon dessert" },
 ];
 
 export default function GalleryPage() {
@@ -76,7 +76,7 @@ export default function GalleryPage() {
           className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden"
         >
           <Image
-            src="/images/gallery-hero.jpg"
+            src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1920&h=1080&fit=crop"
             alt="Gallery"
             fill
             className="object-cover"

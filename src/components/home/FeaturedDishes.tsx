@@ -12,7 +12,7 @@ const featuredDishes = [
     description:
       "Slow-cooked Australian Wagyu in a symphony of coconut and aromatic spices, finished with crispy shallots and herb oil",
     origin: "West Sumatra",
-    image: "/images/dishes/rendang-wagyu.jpg",
+    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&h=1000&fit=crop",
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const featuredDishes = [
     description:
       "Hand-minced sustainably-caught fish wrapped around lemongrass, grilled over coconut husk with sambal matah",
     origin: "Bali",
-    image: "/images/dishes/sate-lilit.jpg",
+    image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&h=1000&fit=crop",
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const featuredDishes = [
     description:
       "Heritage duck slow-cooked for 12 hours in banana leaf with betutu spices, served with lawar and sambal",
     origin: "Bali",
-    image: "/images/dishes/bebek-betutu.jpg",
+    image: "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=800&h=1000&fit=crop",
   },
   {
     id: 4,
@@ -36,7 +36,7 @@ const featuredDishes = [
     description:
       "Crystal-clear oxtail consommé with fork-tender meat, aromatic herbs, and housemade sambal",
     origin: "Jakarta",
-    image: "/images/dishes/sop-buntut.jpg",
+    image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&h=1000&fit=crop",
   },
   {
     id: 5,
@@ -44,7 +44,7 @@ const featuredDishes = [
     description:
       "Wok-fried jasmine rice with black truffle, free-range egg, and aged kecap manis",
     origin: "Modern Indonesian",
-    image: "/images/dishes/nasi-goreng.jpg",
+    image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=800&h=1000&fit=crop",
   },
   {
     id: 6,
@@ -52,7 +52,7 @@ const featuredDishes = [
     description:
       "Deconstructed pandan rice cake with Valrhona chocolate center, palm sugar caramel, and coconut snow",
     origin: "Java",
-    image: "/images/dishes/klepon.jpg",
+    image: "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=800&h=1000&fit=crop",
   },
 ];
 

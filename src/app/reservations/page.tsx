@@ -113,7 +113,7 @@ export default function ReservationsPage() {
           className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden"
         >
           <Image
-            src="/images/reservations-hero.jpg"
+            src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=1920&h=1080&fit=crop"
             alt="Elegant table setting"
             fill
             className="object-cover"

@@ -70,7 +70,7 @@ export default function GiftCardsPage() {
           className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden"
         >
           <Image
-            src="/images/gift-hero.jpg"
+            src="https://images.unsplash.com/photo-1481391319762-47dff72954d9?w=1920&h=1080&fit=crop"
             alt="Gift cards"
             fill
             className="object-cover"

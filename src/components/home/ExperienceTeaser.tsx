@@ -12,7 +12,7 @@ const experiences = [
     subtitle: "12 Courses",
     description:
       "A journey through Indonesia's diverse culinary landscape, featuring seasonal ingredients and ancestral techniques",
-    image: "/images/tasting-menu.jpg",
+    image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=800&fit=crop",
     href: "/menu",
   },
   {
@@ -20,7 +20,7 @@ const experiences = [
     subtitle: "6 Guests Maximum",
     description:
       "An intimate counter experience with direct interaction with Chef Arya and his kitchen brigade",
-    image: "/images/chefs-table.jpg",
+    image: "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?w=600&h=800&fit=crop",
     href: "/experience",
   },
   {
@@ -28,7 +28,7 @@ const experiences = [
     subtitle: "8-16 Guests",
     description:
       "Exclusive spaces for celebrations and corporate gatherings with customized menus",
-    image: "/images/private-dining.jpg",
+    image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=600&h=800&fit=crop",
     href: "/private-events",
   },
 ];
@@ -52,7 +52,7 @@ export default function ExperienceTeaser() {
       {/* Background Image with Parallax */}
       <motion.div style={{ y }} className="absolute inset-0 z-0">
         <Image
-          src="/images/restaurant-interior.jpg"
+          src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1920&h=1080&fit=crop"
           alt="Restaurant interior"
           fill
           className="object-cover opacity-20"

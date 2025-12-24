@@ -43,19 +43,19 @@ const team = [
   {
     name: "Dewi Santoso",
     role: "Sous Chef",
-    image: "/images/team/dewi.jpg",
+    image: "https://images.unsplash.com/photo-1595273670150-bd0c3c392e46?w=400&h=400&fit=crop",
     bio: "Dewi brings 8 years of experience from top kitchens in Singapore and Bangkok.",
   },
   {
     name: "Marcus Chen",
     role: "Pastry Chef",
-    image: "/images/team/marcus.jpg",
+    image: "https://images.unsplash.com/photo-1583394293214-28eed4a90117?w=400&h=400&fit=crop",
     bio: "Trained in Paris, Marcus creates desserts that honor Indonesian traditions.",
   },
   {
     name: "Rani Wijaya",
     role: "Head Sommelier",
-    image: "/images/team/rani.jpg",
+    image: "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=400&h=400&fit=crop",
     bio: "Indonesia's first Advanced Sommelier, specializing in wine and spice pairings.",
   },
 ];
@@ -84,7 +84,7 @@ export default function ChefPage() {
         >
           <motion.div style={{ scale: heroScale }} className="absolute inset-0">
             <Image
-              src="/images/chef-hero.jpg"
+              src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=1920&h=1080&fit=crop"
               alt="Chef Arya Wijaya"
               fill
               className="object-cover"
@@ -139,7 +139,7 @@ export default function ChefPage() {
                 className="relative aspect-[4/5] overflow-hidden"
               >
                 <Image
-                  src="/images/chef-portrait.jpg"
+                  src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&h=1000&fit=crop"
                   alt="Chef Arya in the kitchen"
                   fill
                   className="object-cover"

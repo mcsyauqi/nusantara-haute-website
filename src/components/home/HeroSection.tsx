@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useEffect } from "react";
+import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
 
@@ -102,15 +103,15 @@ export default function HeroSection() {
         style={{ scale }}
         className="absolute inset-0 w-full h-full"
       >
-        {/* Beautiful gradient background that works without images */}
-        <div className="absolute inset-0 bg-gradient-to-br from-charcoal via-deep-burgundy/40 to-charcoal" />
-
-        {/* Subtle pattern overlay */}
-        <div className="absolute inset-0 opacity-10" style={{
-          backgroundImage: `radial-gradient(circle at 20% 50%, rgba(212, 175, 55, 0.3) 0%, transparent 50%),
-                           radial-gradient(circle at 80% 50%, rgba(114, 47, 55, 0.3) 0%, transparent 50%),
-                           radial-gradient(circle at 50% 80%, rgba(139, 69, 19, 0.2) 0%, transparent 50%)`
-        }} />
+        <Image
+          src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1920&h=1080&fit=crop"
+          alt="Elegant fine dining experience"
+          fill
+          className="object-cover"
+          priority
+        />
+        {/* Dark overlay for text readability */}
+        <div className="absolute inset-0 bg-charcoal/50" />
       </motion.div>
 
       {/* Gradient Overlay */}
