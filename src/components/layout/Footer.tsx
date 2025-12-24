@@ -6,15 +6,15 @@ import { motion } from "framer-motion";
 const footerLinks = {
   dining: [
     { href: "/menu", label: "Menu" },
-    { href: "/experience", label: "Dining Experience" },
-    { href: "/chef", label: "The Chef" },
-    { href: "/private-events", label: "Private Events" },
+    { href: "/experience", label: "Pengalaman Bersantap" },
+    { href: "/chef", label: "Chef Kami" },
+    { href: "/private-events", label: "Acara Privat" },
   ],
   visit: [
-    { href: "/reservations", label: "Reservations" },
-    { href: "/contact", label: "Contact" },
-    { href: "/gallery", label: "Gallery" },
-    { href: "/gift-cards", label: "Gift Cards" },
+    { href: "/reservations", label: "Reservasi" },
+    { href: "/contact", label: "Kontak" },
+    { href: "/gallery", label: "Galeri" },
+    { href: "/gift-cards", label: "Kartu Hadiah" },
   ],
   connect: [
     { href: "https://instagram.com", label: "Instagram", external: true },
@@ -54,8 +54,8 @@ export default function Footer() {
               className="mt-6 text-foreground-muted text-base leading-relaxed max-w-xs"
               style={{ fontFamily: "var(--font-cormorant)" }}
             >
-              Where tradition meets artistry. A culinary journey through the
-              soul of Indonesia.
+              Di mana tradisi bertemu seni kuliner. Perjalanan gastronomi
+              melalui jiwa Indonesia.
             </p>
             <div className="mt-6 gold-line" />
           </div>
@@ -66,7 +66,7 @@ export default function Footer() {
               className="text-gold-accent text-xs tracking-[0.3em] uppercase mb-6"
               style={{ fontFamily: "var(--font-cinzel)" }}
             >
-              Dining
+              Bersantap
             </h4>
             <ul className="space-y-4">
               {footerLinks.dining.map((link) => (
@@ -89,7 +89,7 @@ export default function Footer() {
               className="text-gold-accent text-xs tracking-[0.3em] uppercase mb-6"
               style={{ fontFamily: "var(--font-cinzel)" }}
             >
-              Visit
+              Kunjungi
             </h4>
             <ul className="space-y-4">
               {footerLinks.visit.map((link) => (
@@ -112,7 +112,7 @@ export default function Footer() {
               className="text-gold-accent text-xs tracking-[0.3em] uppercase mb-6"
               style={{ fontFamily: "var(--font-cinzel)" }}
             >
-              Connect
+              Hubungi
             </h4>
             <address
               className="not-italic space-y-4 text-cream-white text-base"
@@ -168,13 +168,13 @@ export default function Footer() {
               className="text-foreground-muted text-sm text-center md:text-left"
               style={{ fontFamily: "var(--font-cormorant)" }}
             >
-              <span className="text-gold-accent mr-4">Hours</span>
-              Dinner: Tuesday – Sunday, 6:00 PM – 11:00 PM | Lunch: Friday –
-              Sunday, 12:00 PM – 3:00 PM
+              <span className="text-gold-accent mr-4">Jam Buka</span>
+              Makan Malam: Selasa – Minggu, 18:00 – 23:00 | Makan Siang: Jumat –
+              Minggu, 12:00 – 15:00
             </div>
             <motion.div whileHover={{ scale: 1.02 }}>
               <Link href="/reservations" className="btn-primary text-xs">
-                Reserve Your Table
+                Reservasi Sekarang
               </Link>
             </motion.div>
           </div>
@@ -183,7 +183,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="py-6 border-t border-gold-accent/10 flex flex-col md:flex-row justify-between items-center gap-4 text-foreground-muted text-sm">
           <p style={{ fontFamily: "var(--font-cormorant)" }}>
-            © {new Date().getFullYear()} Nusantara Haute. All rights reserved.
+            © {new Date().getFullYear()} Nusantara Haute. Hak cipta dilindungi.
           </p>
           <div
             className="flex gap-6"
@@ -193,15 +193,33 @@ export default function Footer() {
               href="/privacy"
               className="hover:text-gold-accent transition-colors"
             >
-              Privacy Policy
+              Kebijakan Privasi
             </Link>
             <Link
               href="/terms"
               className="hover:text-gold-accent transition-colors"
             >
-              Terms of Service
+              Syarat & Ketentuan
             </Link>
           </div>
+        </div>
+
+        {/* Credit */}
+        <div className="py-4 border-t border-gold-accent/10 text-center">
+          <p
+            className="text-foreground-muted text-sm"
+            style={{ fontFamily: "var(--font-cormorant)" }}
+          >
+            Created by{" "}
+            <a
+              href="https://creativism.id"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gold-accent hover:text-gold-light transition-colors"
+            >
+              Creativism Digital Marketing
+            </a>
+          </p>
         </div>
       </div>
     </footer>
