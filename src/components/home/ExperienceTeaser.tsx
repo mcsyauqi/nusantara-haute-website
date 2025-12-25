@@ -8,28 +8,31 @@ import { ArrowRight } from "lucide-react";
 
 const experiences = [
   {
-    title: "Tasting Menu",
-    subtitle: "12 Courses",
+    title: "Menu Degustasi",
+    subtitle: "12 Sajian",
     description:
-      "A journey through Indonesia's diverse culinary landscape, featuring seasonal ingredients and ancestral techniques",
+      "Perjalanan melalui lanskap kuliner Indonesia yang beragam, menampilkan bahan musiman dan teknik leluhur",
     image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=800&fit=crop",
     href: "/menu",
+    cta: "Lihat Menu",
   },
   {
     title: "Chef's Table",
-    subtitle: "6 Guests Maximum",
+    subtitle: "Maksimal 6 Tamu",
     description:
-      "An intimate counter experience with direct interaction with Chef Arya and his kitchen brigade",
+      "Pengalaman intim di counter dengan interaksi langsung bersama Chef Arya dan tim dapurnya",
     image: "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?w=600&h=800&fit=crop",
     href: "/experience",
+    cta: "Pelajari Lebih",
   },
   {
-    title: "Private Dining",
-    subtitle: "8-16 Guests",
+    title: "Ruang Privat",
+    subtitle: "8-16 Tamu",
     description:
-      "Exclusive spaces for celebrations and corporate gatherings with customized menus",
+      "Ruangan eksklusif untuk perayaan dan pertemuan korporat dengan menu yang disesuaikan",
     image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=600&h=800&fit=crop",
     href: "/private-events",
+    cta: "Selengkapnya",
   },
 ];
 
@@ -77,13 +80,13 @@ export default function ExperienceTeaser() {
               className="text-gold-accent text-xs tracking-[0.3em] uppercase"
               style={{ fontFamily: "var(--font-cinzel)" }}
             >
-              Dining Experiences
+              Pengalaman Bersantap
             </span>
             <div className="gold-line" />
           </div>
           <h2 className="section-heading text-cream-white max-w-3xl mx-auto">
-            Every Visit, a New{" "}
-            <span className="text-gold-accent italic">Journey</span>
+            Setiap Kunjungan, Sebuah{" "}
+            <span className="text-gold-accent italic">Perjalanan</span>
           </h2>
         </motion.div>
 
@@ -141,7 +144,7 @@ export default function ExperienceTeaser() {
                   </p>
                   <span className="inline-flex items-center gap-2 text-gold-accent text-sm tracking-[0.2em] uppercase group-hover:gap-4 transition-all duration-300">
                     <span style={{ fontFamily: "var(--font-cinzel)" }}>
-                      Learn More
+                      {experience.cta}
                     </span>
                     <ArrowRight size={16} />
                   </span>

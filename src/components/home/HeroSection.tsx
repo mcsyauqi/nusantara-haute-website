@@ -150,7 +150,7 @@ export default function HeroSection() {
           className="text-gold-accent text-xs md:text-sm tracking-[0.4em] uppercase mb-6"
           style={{ fontFamily: "var(--font-cinzel)" }}
         >
-          Fine Dining Experience
+          Pengalaman Fine Dining
         </motion.p>
 
         {/* Main Heading */}
@@ -160,9 +160,9 @@ export default function HeroSection() {
           transition={{ duration: 1, delay: 0.9, ease: [0.4, 0, 0.2, 1] }}
           className="display-heading text-cream-white max-w-4xl"
         >
-          Where Tradition
+          Di Mana Tradisi
           <br />
-          <span className="text-gold-accent italic">Meets Artistry</span>
+          <span className="text-gold-accent italic">Bertemu Seni</span>
         </motion.h1>
 
         {/* Subtitle */}
@@ -173,7 +173,7 @@ export default function HeroSection() {
           className="mt-8 text-cream-white/80 text-lg md:text-xl max-w-2xl body-large"
           style={{ fontFamily: "var(--font-cormorant)" }}
         >
-          A culinary journey through the soul of Indonesia
+          Perjalanan kuliner melalui jiwa Indonesia
         </motion.p>
 
         {/* CTA Button */}
@@ -184,7 +184,7 @@ export default function HeroSection() {
           className="mt-12"
         >
           <Link href="/reservations" className="btn-primary">
-            Reserve Your Table
+            Reservasi Sekarang
           </Link>
         </motion.div>
 
@@ -208,7 +208,7 @@ export default function HeroSection() {
           className="text-cream-white/60 text-xs tracking-[0.3em] uppercase"
           style={{ fontFamily: "var(--font-cinzel)" }}
         >
-          Scroll
+          Gulir
         </span>
         <motion.div
           animate={{ y: [0, 8, 0] }}

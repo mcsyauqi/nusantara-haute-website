@@ -6,13 +6,13 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
   { href: "/menu", label: "Menu" },
-  { href: "/experience", label: "Experience" },
-  { href: "/chef", label: "The Chef" },
-  { href: "/reservations", label: "Reservations" },
-  { href: "/private-events", label: "Private Events" },
-  { href: "/gallery", label: "Gallery" },
-  { href: "/gift-cards", label: "Gift Cards" },
-  { href: "/contact", label: "Contact" },
+  { href: "/experience", label: "Pengalaman" },
+  { href: "/chef", label: "Chef" },
+  { href: "/reservations", label: "Reservasi" },
+  { href: "/private-events", label: "Acara Privat" },
+  { href: "/gallery", label: "Galeri" },
+  { href: "/gift-cards", label: "Kartu Hadiah" },
+  { href: "/contact", label: "Kontak" },
 ];
 
 export default function Navigation() {
@@ -90,7 +90,7 @@ export default function Navigation() {
             href="/reservations"
             className="hidden lg:block btn-primary text-xs"
           >
-            Reserve
+            Reservasi
           </Link>
 
           {/* Hamburger Button */}

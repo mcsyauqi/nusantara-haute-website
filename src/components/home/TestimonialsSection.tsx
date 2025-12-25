@@ -9,7 +9,7 @@ const testimonials = [
   {
     id: 1,
     quote:
-      "A transcendent dining experience that captures the very essence of Indonesian culinary heritage while pushing boundaries with modern technique.",
+      "Pengalaman bersantap yang menakjubkan yang menangkap esensi warisan kuliner Indonesia sambil mendorong batasan dengan teknik modern.",
     author: "Michael Chen",
     title: "Food & Travel Magazine",
     rating: 5,
@@ -17,7 +17,7 @@ const testimonials = [
   {
     id: 2,
     quote:
-      "Chef Arya has created something truly special. Each course tells a story, each bite a revelation. This is Indonesian cuisine elevated to high art.",
+      "Chef Arya telah menciptakan sesuatu yang benar-benar istimewa. Setiap sajian menceritakan kisah, setiap suapan adalah wahyu. Ini adalah masakan Indonesia yang diangkat menjadi seni tinggi.",
     author: "Sarah Williams",
     title: "The Culinary Review",
     rating: 5,
@@ -25,7 +25,7 @@ const testimonials = [
   {
     id: 3,
     quote:
-      "From the moment you step through the doors, you know you're in for something extraordinary. Nusantara Haute is a destination, not just a restaurant.",
+      "Sejak Anda melangkah masuk, Anda tahu akan mengalami sesuatu yang luar biasa. Nusantara Haute adalah destinasi, bukan sekadar restoran.",
     author: "James Morrison",
     title: "Luxury Travel Guide",
     rating: 5,
@@ -83,12 +83,12 @@ export default function TestimonialsSection() {
               className="text-gold-accent text-xs tracking-[0.3em] uppercase"
               style={{ fontFamily: "var(--font-cinzel)" }}
             >
-              Press & Reviews
+              Ulasan & Penghargaan
             </span>
             <div className="gold-line" />
           </div>
           <h2 className="section-heading text-cream-white">
-            What They&apos;re <span className="text-gold-accent italic">Saying</span>
+            Kata <span className="text-gold-accent italic">Mereka</span>
           </h2>
         </motion.div>
 

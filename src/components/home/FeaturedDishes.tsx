@@ -10,15 +10,15 @@ const featuredDishes = [
     id: 1,
     name: "Rendang Wagyu",
     description:
-      "Slow-cooked Australian Wagyu in a symphony of coconut and aromatic spices, finished with crispy shallots and herb oil",
-    origin: "West Sumatra",
+      "Wagyu Australia yang dimasak perlahan dalam simfoni santan dan rempah aromatik, disajikan dengan bawang goreng dan minyak herbal",
+    origin: "Sumatera Barat",
     image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&h=1000&fit=crop",
   },
   {
     id: 2,
     name: "Sate Lilit Bali",
     description:
-      "Hand-minced sustainably-caught fish wrapped around lemongrass, grilled over coconut husk with sambal matah",
+      "Ikan segar cincang halus yang dililitkan pada batang serai, dibakar di atas arang tempurung dengan sambal matah",
     origin: "Bali",
     image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&h=1000&fit=crop",
   },
@@ -26,15 +26,15 @@ const featuredDishes = [
     id: 3,
     name: "Bebek Betutu",
     description:
-      "Heritage duck slow-cooked for 12 hours in banana leaf with betutu spices, served with lawar and sambal",
+      "Bebek kampung yang dimasak selama 12 jam dalam daun pisang dengan bumbu betutu, disajikan dengan lawar dan sambal",
     origin: "Bali",
     image: "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=800&h=1000&fit=crop",
   },
   {
     id: 4,
-    name: "Oxtail Sop Buntut",
+    name: "Sop Buntut",
     description:
-      "Crystal-clear oxtail consommé with fork-tender meat, aromatic herbs, and housemade sambal",
+      "Konsomé buntut sapi jernih dengan daging empuk, rempah aromatik, dan sambal buatan sendiri",
     origin: "Jakarta",
     image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&h=1000&fit=crop",
   },
@@ -42,16 +42,16 @@ const featuredDishes = [
     id: 5,
     name: "Nasi Goreng Truffle",
     description:
-      "Wok-fried jasmine rice with black truffle, free-range egg, and aged kecap manis",
-    origin: "Modern Indonesian",
+      "Nasi jasmine yang ditumis dengan black truffle, telur ayam kampung, dan kecap manis pilihan",
+    origin: "Indonesia Modern",
     image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=800&h=1000&fit=crop",
   },
   {
     id: 6,
     name: "Klepon Chocolate",
     description:
-      "Deconstructed pandan rice cake with Valrhona chocolate center, palm sugar caramel, and coconut snow",
-    origin: "Java",
+      "Klepon dekonstruksi dengan mousse pandan, isian cokelat Valrhona, karamel gula aren, dan salju kelapa",
+    origin: "Jawa",
     image: "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=800&h=1000&fit=crop",
   },
 ];
@@ -110,11 +110,11 @@ export default function FeaturedDishes() {
                 className="text-gold-accent text-xs tracking-[0.3em] uppercase"
                 style={{ fontFamily: "var(--font-cinzel)" }}
               >
-                Signature Creations
+                Kreasi Signature
               </span>
             </div>
             <h2 className="section-heading text-cream-white">
-              Featured <span className="text-gold-accent italic">Dishes</span>
+              Hidangan <span className="text-gold-accent italic">Unggulan</span>
             </h2>
           </div>
 

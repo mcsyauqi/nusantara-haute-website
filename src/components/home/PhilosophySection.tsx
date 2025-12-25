@@ -62,7 +62,7 @@ export default function PhilosophySection() {
                 className="text-gold-accent text-xs tracking-[0.3em] uppercase"
                 style={{ fontFamily: "var(--font-cinzel)" }}
               >
-                Our Philosophy
+                Filosofi Kami
               </span>
             </motion.div>
 
@@ -76,9 +76,9 @@ export default function PhilosophySection() {
                 className="text-cream-white text-3xl md:text-4xl lg:text-5xl leading-tight"
                 style={{ fontFamily: "var(--font-playfair)" }}
               >
-                &ldquo;We honor the{" "}
-                <span className="text-gold-accent italic">17,000 islands</span>{" "}
-                of Indonesia through every dish&rdquo;
+                &ldquo;Kami menghormati{" "}
+                <span className="text-gold-accent italic">17.000 pulau</span>{" "}
+                Indonesia melalui setiap hidangan&rdquo;
               </p>
             </motion.blockquote>
 
@@ -90,10 +90,10 @@ export default function PhilosophySection() {
               className="mt-8 text-foreground-muted text-lg leading-relaxed max-w-lg"
               style={{ fontFamily: "var(--font-cormorant)" }}
             >
-              Each dish tells a story of generations, reimagined for the modern
-              palate. From the volcanic soils of Java to the pristine waters of
-              Raja Ampat, we source the finest ingredients to create an
-              unforgettable culinary journey.
+              Setiap hidangan menceritakan kisah turun-temurun, dirancang ulang
+              untuk selera modern. Dari tanah vulkanik Jawa hingga perairan
+              murni Raja Ampat, kami memilih bahan-bahan terbaik untuk menciptakan
+              perjalanan kuliner yang tak terlupakan.
             </motion.p>
 
             {/* Signature */}
@@ -123,7 +123,7 @@ export default function PhilosophySection() {
                   className="text-foreground-muted text-sm mt-1"
                   style={{ fontFamily: "var(--font-cormorant)" }}
                 >
-                  Executive Chef & Founder
+                  Executive Chef & Pendiri
                 </p>
               </div>
             </motion.div>

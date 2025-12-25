@@ -58,9 +58,9 @@ export default function CTASection() {
             className="text-cream-white text-4xl md:text-5xl lg:text-6xl leading-tight mb-8"
             style={{ fontFamily: "var(--font-playfair)" }}
           >
-            Begin Your
+            Mulai Perjalanan
             <br />
-            <span className="text-gold-accent italic">Culinary Journey</span>
+            <span className="text-gold-accent italic">Kuliner Anda</span>
           </motion.h2>
 
           {/* Subtitle */}
@@ -71,8 +71,8 @@ export default function CTASection() {
             className="text-cream-white/80 text-xl md:text-2xl max-w-2xl mx-auto mb-12"
             style={{ fontFamily: "var(--font-cormorant)" }}
           >
-            Reserve your table and experience Indonesian cuisine reimagined for
-            the modern palate
+            Reservasi meja Anda dan nikmati masakan Indonesia yang dirancang ulang
+            untuk selera modern
           </motion.p>
 
           {/* CTA Buttons */}
@@ -86,13 +86,13 @@ export default function CTASection() {
               href="/reservations"
               className="btn-primary bg-gold-accent text-charcoal border-gold-accent hover:bg-transparent hover:text-gold-accent"
             >
-              Reserve Your Table
+              Reservasi Sekarang
             </Link>
             <Link
               href="/gift-cards"
               className="btn-primary border-cream-white/50 text-cream-white hover:border-gold-accent hover:text-gold-accent"
             >
-              Gift an Experience
+              Berikan Hadiah
             </Link>
           </motion.div>
 
@@ -107,7 +107,7 @@ export default function CTASection() {
               className="text-cream-white/60 text-sm tracking-wider"
               style={{ fontFamily: "var(--font-cormorant)" }}
             >
-              For reservations and inquiries
+              Untuk reservasi dan pertanyaan
             </p>
             <a
               href="tel:+62215550123"

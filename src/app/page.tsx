@@ -5,6 +5,7 @@ import PhilosophySection from "@/components/home/PhilosophySection";
 import FeaturedDishes from "@/components/home/FeaturedDishes";
 import ExperienceTeaser from "@/components/home/ExperienceTeaser";
 import TestimonialsSection from "@/components/home/TestimonialsSection";
+import LocationSection from "@/components/home/LocationSection";
 import CTASection from "@/components/home/CTASection";
 import CustomCursor from "@/components/ui/CustomCursor";
 
@@ -19,6 +20,7 @@ export default function Home() {
         <FeaturedDishes />
         <ExperienceTeaser />
         <TestimonialsSection />
+        <LocationSection />
         <CTASection />
       </main>
       <Footer />
